@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="40" viewBox="0 0 232 40">
+  <rect x="0" y="2" width="36" height="36" rx="10" fill="#008C80"/>
+  <path d="M6 21h6l3-7 5 14 3-7h7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="46" y="27.5" font-family="Inter, 'Segoe UI', system-ui, sans-serif" font-size="20" font-weight="700" fill="#0A8F84" letter-spacing="-0.3">CardioInsight</text>
+</svg>

@@ -1,0 +1,1701 @@
+{
+  "project": "CardioInsight",
+  "random_state": 42,
+  "n_patients": 918,
+  "n_features": 11,
+  "train_size": 734,
+  "test_size": 184,
+  "best_model": "SVM",
+  "selection_rule": "Highest (recall + F1) / 2 under stratified 10-fold cross-validation",
+  "models": [
+    "Logistic Regression",
+    "KNN",
+    "Decision Tree",
+    "Random Forest",
+    "SVM",
+    "Gaussian Naive Bayes",
+    "XGBoost"
+  ],
+  "strategies": [
+    "Hold-out 80/20",
+    "5-fold CV",
+    "10-fold CV",
+    "LOOCV"
+  ],
+  "cv_results": [
+    {
+      "model": "Logistic Regression",
+      "strategy": "Hold-out 80/20",
+      "metric": "accuracy",
+      "mean": 0.8858695652173914,
+      "std": null
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "5-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8605963411736754,
+      "std": 0.020639170742549055
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "10-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8616340181557571,
+      "std": 0.03199069966962496
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "LOOCV",
+      "metric": "accuracy",
+      "mean": 0.8572984749455338,
+      "std": null
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "Hold-out 80/20",
+      "metric": "precision",
+      "mean": 0.8857142857142857,
+      "std": null
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "5-fold CV",
+      "metric": "precision",
+      "mean": 0.8654908765535394,
+      "std": 0.02952633775907079
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "10-fold CV",
+      "metric": "precision",
+      "mean": 0.8661448696879169,
+      "std": 0.040415354686339194
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "LOOCV",
+      "metric": "precision",
+      "mean": 0.8631984585741811,
+      "std": null
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "Hold-out 80/20",
+      "metric": "recall",
+      "mean": 0.9117647058823529,
+      "std": null
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "5-fold CV",
+      "metric": "recall",
+      "mean": 0.8879829159386528,
+      "std": 0.039691605752716845
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "10-fold CV",
+      "metric": "recall",
+      "mean": 0.8898823529411765,
+      "std": 0.04470374951912667
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "LOOCV",
+      "metric": "recall",
+      "mean": 0.8818897637795275,
+      "std": null
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "Hold-out 80/20",
+      "metric": "f1",
+      "mean": 0.8985507246376812,
+      "std": null
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "5-fold CV",
+      "metric": "f1",
+      "mean": 0.8756278879844533,
+      "std": 0.01885905651202999
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "10-fold CV",
+      "metric": "f1",
+      "mean": 0.8767163664038715,
+      "std": 0.028731187463618125
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "LOOCV",
+      "metric": "f1",
+      "mean": 0.872444011684518,
+      "std": null
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "Hold-out 80/20",
+      "metric": "roc_auc",
+      "mean": 0.9329268292682926,
+      "std": null
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "5-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9210705001633592,
+      "std": 0.019983752120474815
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "10-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9202266857962698,
+      "std": 0.03143807589445912
+    },
+    {
+      "model": "Logistic Regression",
+      "strategy": "LOOCV",
+      "metric": "roc_auc",
+      "mean": 0.9216103322450547,
+      "std": null
+    },
+    {
+      "model": "KNN",
+      "strategy": "Hold-out 80/20",
+      "metric": "accuracy",
+      "mean": 0.8858695652173914,
+      "std": null
+    },
+    {
+      "model": "KNN",
+      "strategy": "5-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8572938940365882,
+      "std": 0.021049441835637023
+    },
+    {
+      "model": "KNN",
+      "strategy": "10-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8583731485905399,
+      "std": 0.030032859647683888
+    },
+    {
+      "model": "KNN",
+      "strategy": "Hold-out 80/20",
+      "metric": "precision",
+      "mean": 0.900990099009901,
+      "std": null
+    },
+    {
+      "model": "KNN",
+      "strategy": "5-fold CV",
+      "metric": "precision",
+      "mean": 0.8570752714923826,
+      "std": 0.03731773129795776
+    },
+    {
+      "model": "KNN",
+      "strategy": "10-fold CV",
+      "metric": "precision",
+      "mean": 0.8562289957275061,
+      "std": 0.04091159103864025
+    },
+    {
+      "model": "KNN",
+      "strategy": "Hold-out 80/20",
+      "metric": "recall",
+      "mean": 0.8921568627450981,
+      "std": null
+    },
+    {
+      "model": "KNN",
+      "strategy": "5-fold CV",
+      "metric": "recall",
+      "mean": 0.8938458551737527,
+      "std": 0.03331957582135395
+    },
+    {
+      "model": "KNN",
+      "strategy": "10-fold CV",
+      "metric": "recall",
+      "mean": 0.8977647058823528,
+      "std": 0.046875476160595786
+    },
+    {
+      "model": "KNN",
+      "strategy": "Hold-out 80/20",
+      "metric": "f1",
+      "mean": 0.896551724137931,
+      "std": null
+    },
+    {
+      "model": "KNN",
+      "strategy": "5-fold CV",
+      "metric": "f1",
+      "mean": 0.8740350116534585,
+      "std": 0.018009578963161174
+    },
+    {
+      "model": "KNN",
+      "strategy": "10-fold CV",
+      "metric": "f1",
+      "mean": 0.8751255787627612,
+      "std": 0.026717898686736446
+    },
+    {
+      "model": "KNN",
+      "strategy": "Hold-out 80/20",
+      "metric": "roc_auc",
+      "mean": 0.9418938307030129,
+      "std": null
+    },
+    {
+      "model": "KNN",
+      "strategy": "5-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9097665146715533,
+      "std": 0.022097724298728416
+    },
+    {
+      "model": "KNN",
+      "strategy": "10-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9136805356288857,
+      "std": 0.03611810704581995
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "Hold-out 80/20",
+      "metric": "accuracy",
+      "mean": 0.7934782608695652,
+      "std": null
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "5-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8213530529817058,
+      "std": 0.013461167324054472
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "10-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8343884376493073,
+      "std": 0.02687594892242893
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "Hold-out 80/20",
+      "metric": "precision",
+      "mean": 0.82,
+      "std": null
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "5-fold CV",
+      "metric": "precision",
+      "mean": 0.8287170599728958,
+      "std": 0.017019320296113218
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "10-fold CV",
+      "metric": "precision",
+      "mean": 0.8341760940609262,
+      "std": 0.03414171174495573
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "Hold-out 80/20",
+      "metric": "recall",
+      "mean": 0.803921568627451,
+      "std": null
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "5-fold CV",
+      "metric": "recall",
+      "mean": 0.8543389633080956,
+      "std": 0.02430977422262575
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "10-fold CV",
+      "metric": "recall",
+      "mean": 0.8779607843137255,
+      "std": 0.05890655578536591
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "Hold-out 80/20",
+      "metric": "f1",
+      "mean": 0.8118811881188119,
+      "std": null
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "5-fold CV",
+      "metric": "f1",
+      "mean": 0.8410063904883645,
+      "std": 0.012460421403854564
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "10-fold CV",
+      "metric": "f1",
+      "mean": 0.8537823221285292,
+      "std": 0.02592472877652421
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "Hold-out 80/20",
+      "metric": "roc_auc",
+      "mean": 0.8478000956480154,
+      "std": null
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "5-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.8994083554696932,
+      "std": 0.015495175613441603
+    },
+    {
+      "model": "Decision Tree",
+      "strategy": "10-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9013816355810617,
+      "std": 0.03028249732144523
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "Hold-out 80/20",
+      "metric": "accuracy",
+      "mean": 0.8967391304347826,
+      "std": null
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "5-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8649322879543835,
+      "std": 0.03481571137844119
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "10-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8681557572861921,
+      "std": 0.03698480882895676
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "Hold-out 80/20",
+      "metric": "precision",
+      "mean": 0.8878504672897196,
+      "std": null
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "5-fold CV",
+      "metric": "precision",
+      "mean": 0.8616488791549546,
+      "std": 0.044182934498096654
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "10-fold CV",
+      "metric": "precision",
+      "mean": 0.8654495258561072,
+      "std": 0.04640063895834122
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "Hold-out 80/20",
+      "metric": "recall",
+      "mean": 0.9313725490196079,
+      "std": null
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "5-fold CV",
+      "metric": "recall",
+      "mean": 0.9036691904484566,
+      "std": 0.03223240027877887
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "10-fold CV",
+      "metric": "recall",
+      "mean": 0.9056078431372547,
+      "std": 0.04352059617498793
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "Hold-out 80/20",
+      "metric": "f1",
+      "mean": 0.9090909090909091,
+      "std": null
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "5-fold CV",
+      "metric": "f1",
+      "mean": 0.8813568345577224,
+      "std": 0.028852809034550994
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "10-fold CV",
+      "metric": "f1",
+      "mean": 0.8838669020683071,
+      "std": 0.03178265652231306
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "Hold-out 80/20",
+      "metric": "roc_auc",
+      "mean": 0.9313725490196079,
+      "std": null
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "5-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9251509297271191,
+      "std": 0.026237155024616002
+    },
+    {
+      "model": "Random Forest",
+      "strategy": "10-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9282821616451459,
+      "std": 0.03011279295917804
+    },
+    {
+      "model": "SVM",
+      "strategy": "Hold-out 80/20",
+      "metric": "accuracy",
+      "mean": 0.8695652173913043,
+      "std": null
+    },
+    {
+      "model": "SVM",
+      "strategy": "5-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8649263483012591,
+      "std": 0.02883999415490548
+    },
+    {
+      "model": "SVM",
+      "strategy": "10-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8692546583850931,
+      "std": 0.03413948218379384
+    },
+    {
+      "model": "SVM",
+      "strategy": "Hold-out 80/20",
+      "metric": "precision",
+      "mean": 0.8679245283018868,
+      "std": null
+    },
+    {
+      "model": "SVM",
+      "strategy": "5-fold CV",
+      "metric": "precision",
+      "mean": 0.8559072943826169,
+      "std": 0.03846631206628819
+    },
+    {
+      "model": "SVM",
+      "strategy": "10-fold CV",
+      "metric": "precision",
+      "mean": 0.8644052355201746,
+      "std": 0.04462730977441538
+    },
+    {
+      "model": "SVM",
+      "strategy": "Hold-out 80/20",
+      "metric": "recall",
+      "mean": 0.9019607843137255,
+      "std": null
+    },
+    {
+      "model": "SVM",
+      "strategy": "5-fold CV",
+      "metric": "recall",
+      "mean": 0.9115123277033585,
+      "std": 0.02532804980015039
+    },
+    {
+      "model": "SVM",
+      "strategy": "10-fold CV",
+      "metric": "recall",
+      "mean": 0.9095686274509805,
+      "std": 0.04644309602924031
+    },
+    {
+      "model": "SVM",
+      "strategy": "Hold-out 80/20",
+      "metric": "f1",
+      "mean": 0.8846153846153846,
+      "std": null
+    },
+    {
+      "model": "SVM",
+      "strategy": "5-fold CV",
+      "metric": "f1",
+      "mean": 0.8822154218049161,
+      "std": 0.023561573299907594
+    },
+    {
+      "model": "SVM",
+      "strategy": "10-fold CV",
+      "metric": "f1",
+      "mean": 0.8850540663465951,
+      "std": 0.02954016523993345
+    },
+    {
+      "model": "SVM",
+      "strategy": "Hold-out 80/20",
+      "metric": "roc_auc",
+      "mean": 0.9411166905786705,
+      "std": null
+    },
+    {
+      "model": "SVM",
+      "strategy": "5-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9204267700801644,
+      "std": 0.020825698737652595
+    },
+    {
+      "model": "SVM",
+      "strategy": "10-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9241214729794356,
+      "std": 0.030873000944819526
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "Hold-out 80/20",
+      "metric": "accuracy",
+      "mean": 0.8641304347826086,
+      "std": null
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "5-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8551318602993586,
+      "std": 0.017674106331562713
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "10-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8561753463927376,
+      "std": 0.033070755162794604
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "LOOCV",
+      "metric": "accuracy",
+      "mean": 0.855119825708061,
+      "std": null
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "Hold-out 80/20",
+      "metric": "precision",
+      "mean": 0.8737864077669902,
+      "std": null
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "5-fold CV",
+      "metric": "precision",
+      "mean": 0.8744296278932004,
+      "std": 0.03266909543140761
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "10-fold CV",
+      "metric": "precision",
+      "mean": 0.8749440765123995,
+      "std": 0.041886295787423464
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "LOOCV",
+      "metric": "precision",
+      "mean": 0.8727634194831014,
+      "std": null
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "Hold-out 80/20",
+      "metric": "recall",
+      "mean": 0.8823529411764706,
+      "std": null
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "5-fold CV",
+      "metric": "recall",
+      "mean": 0.8642787808192584,
+      "std": 0.023851727006016524
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "10-fold CV",
+      "metric": "recall",
+      "mean": 0.866235294117647,
+      "std": 0.046080166842578894
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "LOOCV",
+      "metric": "recall",
+      "mean": 0.8641732283464567,
+      "std": null
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "Hold-out 80/20",
+      "metric": "f1",
+      "mean": 0.8780487804878049,
+      "std": null
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "5-fold CV",
+      "metric": "f1",
+      "mean": 0.8686139713576158,
+      "std": 0.014205714343929653
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "10-fold CV",
+      "metric": "f1",
+      "mean": 0.8693960507202878,
+      "std": 0.03054765635160679
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "LOOCV",
+      "metric": "f1",
+      "mean": 0.8684470820969338,
+      "std": null
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "Hold-out 80/20",
+      "metric": "roc_auc",
+      "mean": 0.9093735054997608,
+      "std": null
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "5-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9136402592913525,
+      "std": 0.016025624743316966
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "10-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9133036824485892,
+      "std": 0.02690317638714839
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "strategy": "LOOCV",
+      "metric": "roc_auc",
+      "mean": 0.9123199539082006,
+      "std": null
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "Hold-out 80/20",
+      "metric": "accuracy",
+      "mean": 0.875,
+      "std": null
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "5-fold CV",
+      "metric": "accuracy",
+      "mean": 0.8649263483012591,
+      "std": 0.023159806623052226
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "10-fold CV",
+      "metric": "accuracy",
+      "mean": 0.868155757286192,
+      "std": 0.030025863632167853
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "Hold-out 80/20",
+      "metric": "precision",
+      "mean": 0.898989898989899,
+      "std": null
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "5-fold CV",
+      "metric": "precision",
+      "mean": 0.8674280822819125,
+      "std": 0.04055368541932917
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "10-fold CV",
+      "metric": "precision",
+      "mean": 0.8693092060474198,
+      "std": 0.04067979257017245
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "Hold-out 80/20",
+      "metric": "recall",
+      "mean": 0.8725490196078431,
+      "std": null
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "5-fold CV",
+      "metric": "recall",
+      "mean": 0.8957289846631722,
+      "std": 0.019009716210054085
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "10-fold CV",
+      "metric": "recall",
+      "mean": 0.899764705882353,
+      "std": 0.04238422954665738
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "Hold-out 80/20",
+      "metric": "f1",
+      "mean": 0.8855721393034826,
+      "std": null
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "5-fold CV",
+      "metric": "f1",
+      "mean": 0.8805074483190127,
+      "std": 0.017301137308643286
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "10-fold CV",
+      "metric": "f1",
+      "mean": 0.8830750816126318,
+      "std": 0.026018124961150437
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "Hold-out 80/20",
+      "metric": "roc_auc",
+      "mean": 0.9214490674318507,
+      "std": null
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "5-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9230918931204455,
+      "std": 0.02471564390736044
+    },
+    {
+      "model": "XGBoost",
+      "strategy": "10-fold CV",
+      "metric": "roc_auc",
+      "mean": 0.9260946915351506,
+      "std": 0.030383979415067316
+    }
+  ],
+  "ranking": [
+    {
+      "model": "SVM",
+      "recall": 0.9095686274509805,
+      "f1": 0.8850540663465951,
+      "precision": 0.8644052355201746,
+      "accuracy": 0.8692546583850931,
+      "roc_auc": 0.9241214729794356,
+      "selection score = (recall + F1) / 2": 0.8973113468987879
+    },
+    {
+      "model": "Random Forest",
+      "recall": 0.9056078431372547,
+      "f1": 0.8838669020683071,
+      "precision": 0.8654495258561072,
+      "accuracy": 0.8681557572861921,
+      "roc_auc": 0.9282821616451459,
+      "selection score = (recall + F1) / 2": 0.894737372602781
+    },
+    {
+      "model": "XGBoost",
+      "recall": 0.899764705882353,
+      "f1": 0.8830750816126318,
+      "precision": 0.8693092060474198,
+      "accuracy": 0.868155757286192,
+      "roc_auc": 0.9260946915351506,
+      "selection score = (recall + F1) / 2": 0.8914198937474924
+    },
+    {
+      "model": "KNN",
+      "recall": 0.8977647058823528,
+      "f1": 0.8751255787627612,
+      "precision": 0.8562289957275061,
+      "accuracy": 0.8583731485905399,
+      "roc_auc": 0.9136805356288857,
+      "selection score = (recall + F1) / 2": 0.886445142322557
+    },
+    {
+      "model": "Logistic Regression",
+      "recall": 0.8898823529411765,
+      "f1": 0.8767163664038715,
+      "precision": 0.8661448696879169,
+      "accuracy": 0.8616340181557571,
+      "roc_auc": 0.9202266857962698,
+      "selection score = (recall + F1) / 2": 0.883299359672524
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "recall": 0.866235294117647,
+      "f1": 0.8693960507202878,
+      "precision": 0.8749440765123995,
+      "accuracy": 0.8561753463927376,
+      "roc_auc": 0.9133036824485892,
+      "selection score = (recall + F1) / 2": 0.8678156724189674
+    },
+    {
+      "model": "Decision Tree",
+      "recall": 0.8779607843137255,
+      "f1": 0.8537823221285292,
+      "precision": 0.8341760940609262,
+      "accuracy": 0.8343884376493073,
+      "roc_auc": 0.9013816355810617,
+      "selection score = (recall + F1) / 2": 0.8658715532211274
+    }
+  ],
+  "holdout": {
+    "Logistic Regression": {
+      "accuracy": 0.8858695652173914,
+      "precision": 0.8857142857142857,
+      "recall": 0.9117647058823529,
+      "f1": 0.8985507246376812,
+      "specificity": 0.8536585365853658,
+      "roc_auc": 0.9329268292682926,
+      "tn": 70.0,
+      "fp": 12.0,
+      "fn": 9.0,
+      "tp": 93.0
+    },
+    "KNN": {
+      "accuracy": 0.8858695652173914,
+      "precision": 0.900990099009901,
+      "recall": 0.8921568627450981,
+      "f1": 0.896551724137931,
+      "specificity": 0.8780487804878049,
+      "roc_auc": 0.9418938307030129,
+      "tn": 72.0,
+      "fp": 10.0,
+      "fn": 11.0,
+      "tp": 91.0
+    },
+    "Decision Tree": {
+      "accuracy": 0.7934782608695652,
+      "precision": 0.82,
+      "recall": 0.803921568627451,
+      "f1": 0.8118811881188119,
+      "specificity": 0.7804878048780488,
+      "roc_auc": 0.8478000956480154,
+      "tn": 64.0,
+      "fp": 18.0,
+      "fn": 20.0,
+      "tp": 82.0
+    },
+    "Random Forest": {
+      "accuracy": 0.8967391304347826,
+      "precision": 0.8878504672897196,
+      "recall": 0.9313725490196079,
+      "f1": 0.9090909090909091,
+      "specificity": 0.8536585365853658,
+      "roc_auc": 0.9313725490196079,
+      "tn": 70.0,
+      "fp": 12.0,
+      "fn": 7.0,
+      "tp": 95.0
+    },
+    "SVM": {
+      "accuracy": 0.8695652173913043,
+      "precision": 0.8679245283018868,
+      "recall": 0.9019607843137255,
+      "f1": 0.8846153846153846,
+      "specificity": 0.8292682926829268,
+      "roc_auc": 0.9411166905786705,
+      "tn": 68.0,
+      "fp": 14.0,
+      "fn": 10.0,
+      "tp": 92.0
+    },
+    "Gaussian Naive Bayes": {
+      "accuracy": 0.8641304347826086,
+      "precision": 0.8737864077669902,
+      "recall": 0.8823529411764706,
+      "f1": 0.8780487804878049,
+      "specificity": 0.8414634146341463,
+      "roc_auc": 0.9093735054997608,
+      "tn": 69.0,
+      "fp": 13.0,
+      "fn": 12.0,
+      "tp": 90.0
+    },
+    "XGBoost": {
+      "accuracy": 0.875,
+      "precision": 0.898989898989899,
+      "recall": 0.8725490196078431,
+      "f1": 0.8855721393034826,
+      "specificity": 0.8780487804878049,
+      "roc_auc": 0.9214490674318507,
+      "tn": 72.0,
+      "fp": 10.0,
+      "fn": 13.0,
+      "tp": 89.0
+    }
+  },
+  "roc_all": {
+    "Logistic Regression": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0122,
+        0.0122,
+        0.0244,
+        0.0244,
+        0.0366,
+        0.0366,
+        0.0488,
+        0.0488,
+        0.061,
+        0.061,
+        0.0854,
+        0.0854,
+        0.0976,
+        0.0976,
+        0.1098,
+        0.1098,
+        0.122,
+        0.122,
+        0.1463,
+        0.1463,
+        0.1585,
+        0.1585,
+        0.3415,
+        0.3415,
+        0.4268,
+        0.4268,
+        0.5122,
+        0.5122,
+        0.5244,
+        0.5244,
+        0.6463,
+        0.6463,
+        0.7683,
+        0.7683,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.0098,
+        0.2451,
+        0.2451,
+        0.3922,
+        0.3922,
+        0.5294,
+        0.5294,
+        0.6275,
+        0.6275,
+        0.6961,
+        0.6961,
+        0.7941,
+        0.7941,
+        0.8137,
+        0.8137,
+        0.8235,
+        0.8235,
+        0.8627,
+        0.8627,
+        0.9118,
+        0.9118,
+        0.9216,
+        0.9216,
+        0.9412,
+        0.9412,
+        0.951,
+        0.951,
+        0.9608,
+        0.9608,
+        0.9706,
+        0.9706,
+        0.9804,
+        0.9804,
+        0.9902,
+        0.9902,
+        1.0,
+        1.0
+      ],
+      "auc": 0.9329268292682926
+    },
+    "KNN": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0488,
+        0.061,
+        0.0732,
+        0.0854,
+        0.122,
+        0.1585,
+        0.2195,
+        0.3293,
+        0.4634,
+        0.6585,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.2843,
+        0.5392,
+        0.6961,
+        0.7941,
+        0.8137,
+        0.8922,
+        0.9314,
+        0.9608,
+        0.9706,
+        0.9902,
+        1.0,
+        1.0
+      ],
+      "auc": 0.9418938307030129
+    },
+    "Decision Tree": {
+      "fpr": [
+        0.0,
+        0.0244,
+        0.0732,
+        0.1098,
+        0.1098,
+        0.1829,
+        0.2073,
+        0.2195,
+        0.2439,
+        0.3293,
+        0.378,
+        0.4756,
+        0.561,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.049,
+        0.5196,
+        0.6275,
+        0.6863,
+        0.6961,
+        0.7255,
+        0.8039,
+        0.8235,
+        0.9118,
+        0.9118,
+        0.9118,
+        0.951,
+        1.0
+      ],
+      "auc": 0.8478000956480154
+    },
+    "Random Forest": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0122,
+        0.0122,
+        0.0244,
+        0.0244,
+        0.0366,
+        0.0366,
+        0.0488,
+        0.0488,
+        0.061,
+        0.061,
+        0.0732,
+        0.0732,
+        0.0854,
+        0.0854,
+        0.1098,
+        0.1098,
+        0.1341,
+        0.1341,
+        0.1463,
+        0.1463,
+        0.3415,
+        0.3415,
+        0.378,
+        0.378,
+        0.4268,
+        0.4268,
+        0.439,
+        0.439,
+        0.5,
+        0.5,
+        0.7683,
+        0.7683,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.0098,
+        0.2451,
+        0.2451,
+        0.2745,
+        0.2745,
+        0.4706,
+        0.4706,
+        0.5686,
+        0.5686,
+        0.5882,
+        0.5882,
+        0.6667,
+        0.6667,
+        0.8333,
+        0.8333,
+        0.8529,
+        0.8529,
+        0.8627,
+        0.8627,
+        0.8824,
+        0.8824,
+        0.9412,
+        0.9412,
+        0.951,
+        0.951,
+        0.9608,
+        0.9608,
+        0.9706,
+        0.9706,
+        0.9804,
+        0.9804,
+        0.9902,
+        0.9902,
+        1.0,
+        1.0
+      ],
+      "auc": 0.9313725490196079
+    },
+    "SVM": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0122,
+        0.0122,
+        0.0244,
+        0.0244,
+        0.0366,
+        0.0366,
+        0.0488,
+        0.0488,
+        0.0732,
+        0.0732,
+        0.0854,
+        0.0854,
+        0.0976,
+        0.0976,
+        0.122,
+        0.122,
+        0.1341,
+        0.1341,
+        0.1463,
+        0.1463,
+        0.1585,
+        0.1707,
+        0.1707,
+        0.1829,
+        0.1829,
+        0.1951,
+        0.1951,
+        0.2073,
+        0.2073,
+        0.2439,
+        0.2439,
+        0.2805,
+        0.2805,
+        0.3049,
+        0.3049,
+        0.5976,
+        0.5976,
+        0.7927,
+        0.7927,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.0098,
+        0.1373,
+        0.1373,
+        0.4216,
+        0.4216,
+        0.4902,
+        0.4902,
+        0.7451,
+        0.7451,
+        0.7941,
+        0.7941,
+        0.8431,
+        0.8431,
+        0.8529,
+        0.8529,
+        0.8627,
+        0.8627,
+        0.8725,
+        0.8725,
+        0.8824,
+        0.8824,
+        0.8922,
+        0.8922,
+        0.902,
+        0.9118,
+        0.9118,
+        0.9216,
+        0.9216,
+        0.9412,
+        0.9412,
+        0.951,
+        0.951,
+        0.9608,
+        0.9608,
+        0.9706,
+        0.9706,
+        0.9804,
+        0.9804,
+        0.9902,
+        0.9902,
+        1.0,
+        1.0
+      ],
+      "auc": 0.9411166905786705
+    },
+    "Gaussian Naive Bayes": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0122,
+        0.0122,
+        0.0244,
+        0.0244,
+        0.0366,
+        0.0366,
+        0.0488,
+        0.0488,
+        0.061,
+        0.061,
+        0.0732,
+        0.0732,
+        0.0854,
+        0.0854,
+        0.0976,
+        0.0976,
+        0.1098,
+        0.1098,
+        0.122,
+        0.122,
+        0.1341,
+        0.1341,
+        0.1463,
+        0.1463,
+        0.1585,
+        0.1585,
+        0.1707,
+        0.1707,
+        0.2073,
+        0.2073,
+        0.2195,
+        0.2195,
+        0.2439,
+        0.2439,
+        0.2927,
+        0.2927,
+        0.5122,
+        0.5122,
+        0.5488,
+        0.5488,
+        0.6951,
+        0.6951,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.0098,
+        0.049,
+        0.049,
+        0.1569,
+        0.1569,
+        0.3235,
+        0.3235,
+        0.3431,
+        0.3431,
+        0.4902,
+        0.4902,
+        0.5196,
+        0.5196,
+        0.5294,
+        0.5294,
+        0.6373,
+        0.6373,
+        0.6667,
+        0.6667,
+        0.7549,
+        0.7549,
+        0.7941,
+        0.7941,
+        0.8431,
+        0.8431,
+        0.8824,
+        0.8824,
+        0.902,
+        0.902,
+        0.9118,
+        0.9118,
+        0.9216,
+        0.9216,
+        0.9412,
+        0.9412,
+        0.9608,
+        0.9608,
+        0.9706,
+        0.9706,
+        0.9804,
+        0.9804,
+        0.9902,
+        0.9902,
+        1.0,
+        1.0
+      ],
+      "auc": 0.9093735054997608
+    },
+    "XGBoost": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0122,
+        0.0122,
+        0.0244,
+        0.0244,
+        0.0366,
+        0.0366,
+        0.0488,
+        0.0488,
+        0.061,
+        0.061,
+        0.0732,
+        0.0732,
+        0.0854,
+        0.0854,
+        0.0976,
+        0.0976,
+        0.1098,
+        0.1098,
+        0.122,
+        0.122,
+        0.1341,
+        0.1341,
+        0.1585,
+        0.1585,
+        0.1707,
+        0.1707,
+        0.2073,
+        0.2073,
+        0.2805,
+        0.2805,
+        0.4024,
+        0.4024,
+        0.4634,
+        0.4634,
+        0.7561,
+        0.7561,
+        0.7927,
+        0.7927,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.0098,
+        0.1471,
+        0.1471,
+        0.2745,
+        0.2745,
+        0.3235,
+        0.3235,
+        0.4706,
+        0.4706,
+        0.5098,
+        0.5098,
+        0.6471,
+        0.6471,
+        0.7451,
+        0.7451,
+        0.7647,
+        0.7647,
+        0.8039,
+        0.8039,
+        0.8137,
+        0.8137,
+        0.8824,
+        0.8824,
+        0.8922,
+        0.8922,
+        0.902,
+        0.902,
+        0.9412,
+        0.9412,
+        0.951,
+        0.951,
+        0.9608,
+        0.9608,
+        0.9706,
+        0.9706,
+        0.9804,
+        0.9804,
+        0.9902,
+        0.9902,
+        1.0,
+        1.0
+      ],
+      "auc": 0.9214490674318507
+    }
+  },
+  "best": {
+    "holdout_metrics": {
+      "accuracy": 0.8695652173913043,
+      "precision": 0.8679245283018868,
+      "recall": 0.9019607843137255,
+      "f1": 0.8846153846153846,
+      "specificity": 0.8292682926829268,
+      "roc_auc": 0.9411166905786705,
+      "tn": 68.0,
+      "fp": 14.0,
+      "fn": 10.0,
+      "tp": 92.0
+    },
+    "confusion_matrix": [
+      [
+        68,
+        14
+      ],
+      [
+        10,
+        92
+      ]
+    ],
+    "recall_ci": {
+      "estimate": 0.9019607843137255,
+      "lower": 0.8365340909090909,
+      "upper": 0.9574468085106383
+    },
+    "permutation_importance": [
+      {
+        "feature": "ST_Slope",
+        "importance": 0.10530846484935438,
+        "std": 0.017928207257382017
+      },
+      {
+        "feature": "Oldpeak",
+        "importance": 0.029381874701099948,
+        "std": 0.008184656177360734
+      },
+      {
+        "feature": "Sex",
+        "importance": 0.025585844093735082,
+        "std": 0.005907886285476174
+      },
+      {
+        "feature": "ChestPainType",
+        "importance": 0.02506575801052126,
+        "std": 0.00698513743957048
+      },
+      {
+        "feature": "FastingBS",
+        "importance": 0.013546150167384025,
+        "std": 0.0046654611332583446
+      },
+      {
+        "feature": "ExerciseAngina",
+        "importance": 0.010467479674796743,
+        "std": 0.004394782200140387
+      },
+      {
+        "feature": "RestingBP",
+        "importance": 0.007131755141080798,
+        "std": 0.0032039575606418115
+      },
+      {
+        "feature": "MaxHR",
+        "importance": 0.0037422285987565697,
+        "std": 0.004139626461082906
+      },
+      {
+        "feature": "Cholesterol",
+        "importance": 0.0013629842180774732,
+        "std": 0.0016748647544560019
+      },
+      {
+        "feature": "Age",
+        "importance": 0.0012494021999043536,
+        "std": 0.002924819061223649
+      },
+      {
+        "feature": "RestingECG",
+        "importance": 0.0002690100430416009,
+        "std": 0.0026667178158220495
+      }
+    ]
+  },
+  "tuning": {
+    "model": "SVM",
+    "grid": {
+      "model__C": [
+        "0.1",
+        "0.5",
+        "1",
+        "2",
+        "5",
+        "10"
+      ],
+      "model__gamma": [
+        "scale",
+        "0.01",
+        "0.03",
+        "0.1"
+      ]
+    },
+    "n_combinations": 24,
+    "best_params": {
+      "model__C": "0.5",
+      "model__gamma": "0.1"
+    },
+    "best_cv_score": 0.8918249779382504,
+    "best_cv_std": 0.021256692189460403,
+    "default_cv_score": 0.8860277394519652,
+    "gain": 0.005797238486285217,
+    "used_tuned": false
+  },
+  "reference_profile": {
+    "Age": 54.0,
+    "RestingBP": 130.0,
+    "Cholesterol": 237.0,
+    "MaxHR": 138.0,
+    "Oldpeak": 0.6,
+    "Sex": "M",
+    "ChestPainType": "ASY",
+    "FastingBS": 0,
+    "RestingECG": "Normal",
+    "ExerciseAngina": "N",
+    "ST_Slope": "Flat"
+  },
+  "versions": {
+    "python": "3.13.5",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  },
+  "fairness": {
+    "sex_counts": {
+      "Male": 725,
+      "Female": 193
+    },
+    "hd_rate": {
+      "Male": 0.6317241379310344,
+      "Female": 0.25906735751295334
+    },
+    "table": [
+      {
+        "Evaluation": "Hold-out test set",
+        "Sex": "Male",
+        "Patients": 146,
+        "With HD": 96,
+        "Recall": 0.90625,
+        "Precision": 0.8787878787878788,
+        "Specificity": 0.76,
+        "Missed (FN)": 9,
+        "False alarms (FP)": 12
+      },
+      {
+        "Evaluation": "Hold-out test set",
+        "Sex": "Female",
+        "Patients": 38,
+        "With HD": 6,
+        "Recall": 0.8333333333333334,
+        "Precision": 0.7142857142857143,
+        "Specificity": 0.9375,
+        "Missed (FN)": 1,
+        "False alarms (FP)": 2
+      },
+      {
+        "Evaluation": "10-fold CV (all patients)",
+        "Sex": "Male",
+        "Patients": 725,
+        "With HD": 458,
+        "Recall": 0.9192139737991266,
+        "Precision": 0.8807531380753139,
+        "Specificity": 0.7865168539325843,
+        "Missed (FN)": 37,
+        "False alarms (FP)": 57
+      },
+      {
+        "Evaluation": "10-fold CV (all patients)",
+        "Sex": "Female",
+        "Patients": 193,
+        "With HD": 50,
+        "Recall": 0.82,
+        "Precision": 0.7068965517241379,
+        "Specificity": 0.8811188811188811,
+        "Missed (FN)": 9,
+        "False alarms (FP)": 17
+      }
+    ],
+    "gaps": {
+      "Hold-out test set": {
+        "male_recall": 0.90625,
+        "female_recall": 0.8333333333333334,
+        "gap": 0.07291666666666663
+      },
+      "10-fold CV (all patients)": {
+        "male_recall": 0.9192139737991266,
+        "female_recall": 0.82,
+        "gap": 0.09921397379912666
+      }
+    }
+  }
+}

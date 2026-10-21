@@ -1,0 +1,51 @@
+# CardioInsight theme - calm, minimal, medical.
+# Streamlit follows the operating system's light/dark preference and uses the matching section below.
+
+[server]
+runOnSave = false
+address = "localhost"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "full"
+
+[theme]
+font = "Inter, 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif"
+headingFont = "Inter, 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif"
+baseRadius = "12px"
+buttonRadius = "10px"
+showWidgetBorder = true
+headingFontWeights = [700, 650, 600]
+chartCategoricalColors = ["#008C80", "#D4693F", "#3A68B5", "#B07D12"]
+
+[theme.light]
+primaryColor = "#008C80"
+backgroundColor = "#F7F8FA"
+secondaryBackgroundColor = "#EEF1F4"
+textColor = "#1B2A41"
+borderColor = "#E3E7EC"
+linkColor = "#00756B"
+
+[theme.light.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F4F7"
+textColor = "#1B2A41"
+borderColor = "#E3E7EC"
+
+[theme.dark]
+primaryColor = "#1FA398"
+backgroundColor = "#0E1520"
+secondaryBackgroundColor = "#182231"
+textColor = "#E6EAF0"
+borderColor = "#263243"
+linkColor = "#4FC2B8"
+chartCategoricalColors = ["#1FA398", "#D96F45", "#5A86D0", "#B88A18"]
+
+[theme.dark.sidebar]
+backgroundColor = "#111A27"
+secondaryBackgroundColor = "#182231"
+textColor = "#E6EAF0"
+borderColor = "#263243"
